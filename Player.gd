@@ -4,7 +4,7 @@ const TARGET_FPS = 60
 const ACCELERATION = 8
 const MAX_SPEED = 68
 const FRICTION = 15
-const AIR_RESISTANCE = 2
+const AIR_RESISTANCE = .5
 const GRAVITY = 6
 const JUMP_FORCE = 160
 
