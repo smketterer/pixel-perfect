@@ -4,9 +4,9 @@ const TARGET_FPS = 60
 const ACCELERATION = 8
 const MAX_SPEED = 68
 const FRICTION = 15
-const AIR_RESISTANCE = 1
+const AIR_RESISTANCE = 2
 const GRAVITY = 6
-const JUMP_FORCE = 155
+const JUMP_FORCE = 160
 
 var motion = Vector2.ZERO
 
@@ -14,7 +14,6 @@ onready var sprite = $AnimatedSprite
 
 func _physics_process(delta):
 	var x_input = Input.get_action_strength("ui_right") - Input.get_action_strength("ui_left")
-	
 	motion.y += GRAVITY * delta * TARGET_FPS
 	
 	if x_input != 0:
@@ -32,7 +31,6 @@ func _physics_process(delta):
 			motion.y = -JUMP_FORCE
 	else:
 		if sprite.animation != "jump":
-			print_debug(sprite.animation)
 			sprite.play("jump")
 		
 		if Input.is_action_just_released("ui_up") and motion.y < -JUMP_FORCE/2:
