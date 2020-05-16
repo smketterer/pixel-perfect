@@ -466,5 +466,4 @@ tile_data = PoolIntArray( 0, 0, 3, 65536, 0, 131076, 65537, 0, 5, 65538, 0, 1966
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2( 160.602, 90.3385 )
-zoom = Vector2( 2, 2 )
 script = ExtResource( 3 )
