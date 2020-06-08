@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/sprites.png-bb36f92a96c2b9ad48a8528dbf01963e.stex"
+path="res://.import/worldo.png-2f49d51ce98321104bdf5bab1e3221f0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites.png"
-dest_files=[ "res://.import/sprites.png-bb36f92a96c2b9ad48a8528dbf01963e.stex" ]
+source_file="res://worldo.png"
+dest_files=[ "res://.import/worldo.png-2f49d51ce98321104bdf5bab1e3221f0.stex" ]
 
 [params]
 
@@ -21,7 +21,7 @@ compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
-flags/mipmaps=false
+flags/mipmaps=true
 flags/anisotropic=false
 flags/srgb=2
 process/fix_alpha_border=true
